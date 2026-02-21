@@ -1,0 +1,16 @@
+node_modules
+.next
+out
+dist
+build
+target
+*.log
+.env
+.env.*
+!.env.example
+.DS_Store
+Thumbs.db
+*.exe
+*.msi
+*.dmg
+*.AppImage
