@@ -1,0 +1,10 @@
+module.exports = {
+  root: true,
+  extends: ['next/core-web-vitals'],
+  rules: {
+    '@typescript-eslint/no-unused-vars': ['error', { argsIgnorePattern: '^_' }],
+    '@typescript-eslint/no-explicit-any': 'error',
+    'prefer-const': 'error',
+    'no-console': ['warn', { allow: ['warn', 'error'] }],
+  },
+};
